@@ -13,13 +13,13 @@ html {
 
 body {
 	font-family: 'Roboto Mono', monospace;
-	background-image: url("./images/bgImage5.jpg");
-	background-position: top;
-  background-repeat: repeat;
+	background: url("./images/bgImage5.jpg") no-repeat fixed;
+  background-size: cover;
 }
 
 .navbar, footer {
 	background-color: #0a192f;
+	opacity: 0.85;
 }
 
 /*Custom Link Hover Start*/
@@ -61,29 +61,6 @@ body {
 }
 /*Custom Link Hover End*/
 
-.navbarSpacer {
-	height: 75px;
-}
-
-.footerSpacer {
-	height: 45px;
-}
-
-.contentSpacer1 {
-	height: 130px;
-}
-
-.contentSpacer2 {
-	height: 190px;
-}
-
-/*body, .contentSections {
-	background-color: #112240;
-}*/
-
-/*.paulLanding {
-	font-size: 55px;
-}*/
 
 .paulSantos {
 	text-align: left;
@@ -160,4 +137,18 @@ h1 {
  
 .card, .contactForm {
   border-radius: 10%;
+}
+
+
+.home, .aboutMe, .projects, .contact {
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+.card-text {
+	font-size: 12px;
 }

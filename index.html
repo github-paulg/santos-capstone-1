@@ -28,7 +28,7 @@
 	<div class="sticky-top">
     	<nav class="navbar navbar-expand-lg navbar-dark">
         	<a class="navbar-brand" href="#">
-        	<img src="images/navbarLogo.png" class="img-fluid" width="45">
+        	<img src="images/navbarLogo.png" class="img-fluid" width="30">
         	</a>
         	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,44 +56,41 @@
     <!-- Navbar Section End -->
 
     <!-- Content Section Start-->
-  	<div class="container-fluid text-light">
+  	<div class="container text-light">
 
   		<!-- Home Start -->
-    	<div class="contentSections min-vh-100">
-    		<div class="navbarSpacer row" id="home"></div>
-    		<div class="container-fluid">
-    		<div class="contentSpacer1 row d-none d-md-block"></div>
-    		</div>
-    		<div class="container">
-    		<div class="row mr-3 ml-3 mt-auto">
-    			<div class="pt-3 col-sm-12 col-md-5">
+    	<div class="contentSections">
+    		<div class="home container">
+                <div class="row">
+
+    			<div class="col-sm-12 col-md-5">
                     <a href="https://zuitt.co/">
-                    <img src="./images/techGlobe.gif" class="img-fluid" id="globePic">
+                    <img src="./images/techGlobe3.gif" class="img-fluid" id="globePic">
                     </a>
                	</div>
-                <div class="paulSantos pt-3 col-sm-12 col-md-7 mr-auto">
+
+                <div class="paulSantos pt-3 col-sm-12 col-md-7">
                     <h1 class="paulLanding">#paulSantos {</h1>
                     	<ul class="">
-                    		<li class="mt-3 ml-5">- Full Stack Developer</li>
-                    		<li class="mt-3 ml-5">- Designer</li>
-                    		<li class="mt-3 ml-5">- Builder</li>
+                    		<li class="mt-3 ml-5">Full Stack Developer;</li>
+                    		<li class="mt-3 ml-5">Designer;</li>
+                    		<li class="mt-3 ml-5">Builder</li>
                     	</ul>
                     <h1 class="">}</h1>
                 </div>
-            </div>
+
+                </div>
             </div>               
    		</div>
    		<!-- Home End -->
 
    		<!-- About Me Start -->
-        <div class="contentSections min-vh-100">    
-            <div class="navbarSpacer row" id="aboutMe"></div>
-            <div class="container-fluid">
-            <div class="contentSpacer2 row d-none d-md-block"></div>
-            </div>
+        <div class="contentSections">    
+            <div class="aboutMe container" id="aboutMe">
+            <h1 class="">.aboutMe {}</h1>
             <div class="row mx-5 align-items-center">
-                    <div class="aboutMe py-3 px-0 px-md-5 col-sm-12 col-md-9 order-2 order-md-1">
-                        <h1 class="mb-5">.aboutMe {}</h1>
+                    
+                    <div class="py-3 px-0 px-md-5 col-sm-12 col-md-9 order-2 order-md-1">    
                             <div class="myStory text-justify mt-3 ml-auto">
                               <p>
                                 Hi there! I'm Paul, a licensed Electronics Engineer with at least nine years of experience in Service Engineering and Management primarily dealing in the Biomedical field. 
@@ -106,19 +103,22 @@
                               </p>
                             </div>
                     </div>
+
                     <div class="py-3 col-sm-12 col-md-3 order-1 order-md-2">
                         <img src="./images/paulSantos.jpg" class="img-fluid rounded-circle" id="paulPic"> 
                     </div>
-            </div>      
+
+            </div>
+            </div>
         </div>
         <!-- About Me End -->
 
     	<!-- Projects Start -->
     	<div class="contentSections">
-    		<div class="navbarSpacer row" id="projects"></div>
+                <div class="projects container-fluid" id="projects">
                 <h1 class="">.projects {}</h1>
                 <p class="mt-5">These are the major projects that I recently worked on.</p>
-                    <div class="d-lg-flex justify-content-center p-md-5">
+                    <div class="d-lg-flex justify-content-center px-md-5">
 
                         <!-- Capstone 1 Start -->
                         <div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
@@ -169,19 +169,21 @@
                         <!-- Capstone 3 End -->
 
                     </div>
-                    <!-- Projects End -->
+                    
+                </div>
+                <!-- Projects End -->
     	</div>
 
     	<!-- Contact Section Start -->
-    	<div class="contentSections min-vh-100">
-    			<div class="navbarSpacer row" id="contact"></div>
+    	<div class="contentSections">
+                <div class="contact container" id="contact">
                 <h1 class="">.contact {}</h1>
                 <p class="mt-5">Contact Me Here!</p>
 
                     <!-- Contact Form Start -->
-               		<div class="contactFormBg p-3">
-                    	<div class="text-light row justify-content-center p-3 mt-3">
-                        	<form class="contactForm col-sm-12 col-md-8 col-xl-4 p-3">
+               		<div class="contactFormBg px-3">
+                    	<div class="text-light row justify-content-center px-3">
+                        	<form class="contactForm col-sm-12 col-md-12 p-3">
                             	<div class="form-group">
                                 	<label for="Name">Name</label>
                                 	<input type="text" class="form-control" id="text" aria-describedby="emailHelp" placeholder="Your Name">
@@ -191,8 +193,8 @@
                                 	<input type="email" class="form-control" id="email" placeholder="name@example.com">
                             	</div>
                             	<div class="form-group">
-                                	<label for="contact">Contact Number</label>
-                                	<input type="number" class="form-control" id="contact" placeholder="+63 945 454 545">
+                                	<label for="contactNo">Contact Number</label>
+                                	<input type="number" class="form-control" id="contactNo" placeholder="+63 945 454 545">
                             	</div>
 
                             	<div class="form-group">
@@ -211,9 +213,11 @@
                             	<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#testModal">Send Email</button>
                         	</form>
                     	</div>
-                    	<div class="footerSpacer row"></div>
                 	</div>
-                	<!-- Contact Form End -->
+                	
+                </div>
+                <!-- Contact Form End -->
+
 
                 	<!-- Modal Start -->
                	 	<div class="modal fade" id="testModal" tabindex="-1" aria-labelledby="testModalLabel" aria-hidden="true">
@@ -243,7 +247,7 @@
 	<!-- Content Section End-->
 				
     <!-- Footer Start-->
-        <footer class="text-light p-1 row fixed-bottom">
+        <footer class="text-light row fixed-bottom">
             <span class="col-sm-12 col-md-4">&copy; 2022 Paul Santos</span>
             <span class="col-sm-12 col-md-4">Designed and Built at Zuitt</span>
             <span class="col-sm-12 col-md-4">All Rights Reserved</span>
