@@ -113,18 +113,18 @@ h1 {
 	width: 250px;
 }
 
+#paulPic:hover {
+	box-shadow: 0 0 40px 10px #25b3dd;
+}
+
 .card-body > img {
 	width: 300px;
 	height: 300px;
 }
 
 .myStory {
-	font-size: 25px;
+	font-size: 22.5px;
 	font-stretch: semi-expanded;
-}
-
-#paulPic:hover {
-	box-shadow: 0 0 40px 10px #25b3dd;
 }
 
 .cardImg:hover {
@@ -132,11 +132,11 @@ h1 {
 }
 
 .cardImg {
-  border-radius: 20%;
+  border-radius: 5%;
 }
  
 .card, .contactForm {
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 
