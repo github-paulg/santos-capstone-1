@@ -2,4 +2,4 @@
 
 ### Hosted Link:
 
-* [Santos, John Paul - Dev Portfolio](https://github-paulg.github.io/santos-capstone-1/)
+* [Santos, John Paul - Dev Portfolio](https://paulg-dev.github.io/portfoliov1/)
